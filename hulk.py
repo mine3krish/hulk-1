@@ -5,7 +5,7 @@
 # to their knees by exhausting the resource pool, its is meant for research purposes only
 # and any malicious usage of this tool is prohibited.
 #
-# author :  Barry Shteiman , version 1.0
+# author :  Krishnendu Maity , version 1.0
 # ----------------------------------------------------------------------------------------------
 import urllib2
 import sys
@@ -69,6 +69,7 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
+        print 'Hulk DDoS created by krish tech studio youtube channel'
 	print '---------------------------------------------------'
 	print 'USAGE: python hulk.py <url>'
 	print 'you can add "safe" after url, to autoshut after dos'
@@ -140,6 +141,8 @@ else:
 		sys.exit()
 	else:
 		print "-- HULK Attack Started --"
+                print "<--created by Krish Tech Studio YouTube Channel-->"
+                print "Please Subscribe"
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()
